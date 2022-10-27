@@ -47,12 +47,19 @@ We use __Classification__ to predict the same.
 - `'ID'` column is dropped.
 - `'subscribed'` is indentified as the Target Variable.
 - Countplot of `'subscribed'` is plotted.
+
 ![barplot_subs](https://github.com/navi1910/Bank_term_Deposit_Classification/blob/master/barplot_subscribed.png 'barplot_subs')
+
 - Stacked Barplot of `'Job'` vs Frequency is plotted such that it shows how many have subscribed or not. 
+
 ![stacked_bar](https://github.com/navi1910/Bank_term_Deposit_Classification/blob/master/job_stacked_subscribed.png 'stacked_bar')
+
 - `LabelEncoder` from `sklearn.preprocessing` is used to convert all categorical variables to numeric variables.
+
 - Heatmap is plotted to check the correlation among the variables.
+
 ![heatmap](https://github.com/navi1910/Bank_term_Deposit_Classification/blob/master/heatmap.png 'heatmap')
+
 - Correlation Table is also created.
 
 - Dependent and Independent Variables are separated.
